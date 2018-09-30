@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ikenna.happybirthday.MainActivity">
+
+    <ImageView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday Emma!"
+        android:textSize="32sp"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/happy"
+        app:layout_constraintRight_toRightOf="@id/happy"
+        android:text="From, Ikenna"
+        android:padding="20dp"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light" />
+
+
+
+</android.support.constraint.ConstraintLayout>
